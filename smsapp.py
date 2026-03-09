@@ -11,7 +11,7 @@ st.set_page_config(page_title="Spam Detector", page_icon="📧")
 # Download NLTK resources
 @st.cache_resource
 def load_nltk():
-    nltk.download('punkt')
+    nltk.download('punkt_tab')
     nltk.download('stopwords')
 
 load_nltk()
@@ -93,4 +93,5 @@ if st.button('Classify Message'):
 
 # Footer
 st.markdown("---")
+
 st.caption("Machine Learning Project - SMS Spam Detection")
