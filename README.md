@@ -1,2 +1,2 @@
 # sms_spam_detection
-An SMS Spam Classifier is a machine learning project designed to automatically categorize text messages into two primary classes: Spam (unsolicited, fraudulent, or commercial bulk messages) and Ham (legitimate, personal, or expected messages).
+An SMS Spam Classifier is a machine learning project designed to automatically categorize text messages into two primary classes: Spam (unsolicited, fraudulent, or commercial bulk messages) and Ham (legitimate, personal, or expected messages). The pipeline includes data cleaning, exploratory data analysis, TF-IDF vectorization, and model training using the Naive Bayes algorithm.
